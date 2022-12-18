@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BatEmission
+  m_Shader: {fileID: 4800000, guid: d96537f2a3954eb4da3e9f7ad65fec9f, type: 3}
+  m_ShaderKeywords: MULTIPLY SHAPEX_ON SHAPE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distort:
+        m_Texture: {fileID: 2800000, guid: e5579ca518f171d40aa741f32e4dadf5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 8b800abd8431a43a5861508d74e73604, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 7b99b9eccb5c6f84a9189d8e44803e8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 2800000, guid: 3e9bfd5bdde68c1438213544ce4815cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 727babd9f1ef0be468453f0751e57c13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShapeTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - SHAPE: 1
+    - SHAPEX: 1
+    - _BlendMode: 10
+    - _BlendOp: 4
+    - _Brightness: 1.18
+    - _Cutoff: 0.3
+    - _Distort: 0.147
+    - _DistortScale: 0.56
+    - _Edge: 0.406
+    - _EdgeWidth: -0.16
+    - _Edgefuz: 0.4
+    - _Hard: 17.3
+    - _Height: 1.2
+    - _MULTIPLY: 1
+    - _Offset: 0.54
+    - _Particle: -0.16
+    - _Scale: 0.06
+    - _Scale2: 0.57
+    - _ScrollX: -0.12
+    - _ScrollY: 0.45
+    - _Speed: 0
+    - _Stretch: 0.88
+    - _Value1: 0.33
+    m_Colors:
+    - _ColorA: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 1}
+    - _ColorB: {r: 0.7830189, g: 0, b: 0, a: 1}
+    - _EdgeColor: {r: 0, g: 1, b: 0.95873094, a: 0}
+    - _Tint: {r: 0.14781438, g: 0.8784314, b: 0, a: 0}
+    - _TintA: {r: 0.7830189, g: 0.44053543, b: 0.22530258, a: 1}
+    - _TintB: {r: 1, g: 0.9014228, b: 0.4481132, a: 1}
+    - _ToonRamp: {r: 1, g: 0.4301867, b: 0, a: 0}
+  m_BuildTextureStacks: []

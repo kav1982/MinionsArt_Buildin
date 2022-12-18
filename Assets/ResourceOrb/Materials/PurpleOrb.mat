@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PurpleOrb
+  m_Shader: {fileID: 4800000, guid: 0863a4b1b17811d4289cd9b7a4d2ec52, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 9566a20197e1ce446b550c3ef71f61e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 0b9fb1a39c409034bb7c596c8a4823ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 4770b0b24e7548d40bed956b45526454, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShapeMask:
+        m_Texture: {fileID: 2800000, guid: 0b9fb1a39c409034bb7c596c8a4823ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sparkles:
+        m_Texture: {fileID: 2800000, guid: 83000fb66fcbebe4db6b21b8c634115f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaSmooth: 0.027
+    - _Alphacutoff: 0.077
+    - _Amplitude: 0.0329
+    - _ColorLerp: 0.5
+    - _ColorMask: 15
+    - _Cutoff: 0.013
+    - _DarkEdge: 0.018
+    - _Distort: 1
+    - _Edge: 0.021
+    - _EdgeBottom: 0.007
+    - _EdgeTop: 0.02
+    - _EdgeWidth: 0.5
+    - _FillAmount: 0.549
+    - _Freq: 7.48
+    - _Glossiness: 0
+    - _LightInner: 0.5
+    - _LineBottom: 0.051
+    - _LineSphereDist: -0.08
+    - _LineTop: 0
+    - _LineWidth: 0
+    - _MaskStrength: 0.419
+    - _Metallic: 0
+    - _MoveSpeedX: 1
+    - _MoveSpeedY: -0.46
+    - _Offset: -2.01
+    - _Radius: 0.027
+    - _Scale: 1.54
+    - _ScaleSparkle: 0.54
+    - _Slider: 0.558
+    - _SparkleOver: 0.023
+    - _Speed: 89.5
+    - _SphereDist: 8.1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Stretch: 0.15
+    - _TextureOver: 0.059
+    m_Colors:
+    - _Color: {r: 1.2996038, g: 0, b: 4.867144, a: 1}
+    - _ExtraTMoveSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Inner: {r: 1, g: 1, b: 1, a: 1}
+    - _MoveSpeed: {r: -2.56, g: 0, b: 0, a: 0}
+    - _MoveSpeedSpark: {r: 0, g: 0, b: 0, a: 0}
+    - _Outer: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkMoveSpeed: {r: -2.56, g: -3.09, b: 0, a: 0}
+    - _SparkleColor: {r: 0, g: 232.9098, b: 766.9961, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

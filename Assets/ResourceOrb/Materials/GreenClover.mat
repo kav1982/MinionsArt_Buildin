@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GreenClover
+  m_Shader: {fileID: 4800000, guid: 0863a4b1b17811d4289cd9b7a4d2ec52, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 48b38b7b64807ce44b69557739252365, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 1a47b0983250b4b4a85e5db07371b311, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: f4c1601cba24d2744844691c5c70cbf3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShapeMask:
+        m_Texture: {fileID: 2800000, guid: 1a47b0983250b4b4a85e5db07371b311, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sparkles:
+        m_Texture: {fileID: 2800000, guid: 067574da283c35f429e621556c34ce07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaSmooth: 0.1
+    - _Alphacutoff: 0.25
+    - _Amplitude: 0.008
+    - _ColorLerp: 0.5
+    - _ColorMask: 15
+    - _Cutoff: 0.032
+    - _DarkEdge: 0.306
+    - _Distort: 0.37
+    - _Edge: 0
+    - _EdgeBottom: 0.5
+    - _EdgeTop: 0.5
+    - _EdgeWidth: 0.5
+    - _FillAmount: 0.457
+    - _Freq: 10
+    - _Glossiness: 0
+    - _LightInner: 0.5
+    - _LineBottom: 0.052
+    - _LineSphereDist: 0.59
+    - _LineTop: 0
+    - _LineWidth: 0
+    - _MaskStrength: 1
+    - _Metallic: 0
+    - _MoveSpeedX: 0.74
+    - _MoveSpeedY: 0.44
+    - _Offset: 0.09
+    - _Radius: 0.114
+    - _Scale: 0.64
+    - _ScaleSparkle: 0.53
+    - _Slider: 0.536
+    - _SparkleOver: 0.032
+    - _Speed: 26.9
+    - _SphereDist: 10
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Stretch: 0.69
+    - _TextureOver: 0.134
+    m_Colors:
+    - _Color: {r: 1.0142101, g: 1.319508, b: 0, a: 1}
+    - _ExtraTMoveSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Inner: {r: 1, g: 1, b: 1, a: 1}
+    - _MoveSpeed: {r: 1.47, g: 0.24, b: 0, a: 0}
+    - _MoveSpeedSpark: {r: 0, g: 0, b: 0, a: 0}
+    - _Outer: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkMoveSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SparkleColor: {r: 0.09900379, g: 0.8705506, b: 0, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
